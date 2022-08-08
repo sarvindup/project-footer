@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="eva-2.css">
+    <script src="https://kit.fontawesome.com/755660829e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body>
+  <nav>
+    <div class="container navbar">
+      <div class="logo">
+        <a href="">EVA DREAMS</a>
+      </div>
+      <div class="menu">
+        <input type="checkbox" id="checking">
+        <label for="checking">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Shop</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">Shopping Bag</a></li>
+          <li><input type="text" placeholder="Search Items"></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="box-1">
+    <img src="img/pexels-anna-nekrashevich-8532616.jpg" width="85%" id="img-box-1">
+  </div>
+  <div class="box-2">
+    <h1>Black T-shirt </h1>
+    <h3>For Mens</h3>
+    <button>See The Collection</button>
+  </div>
+  <!--Start-->
+  <div class="box-3">
+    <h1>Featured Product</h1>
+  </div>
+  <!--end-->
+  <div class="box-4">
+    <img src="product.hmg/gavin-allanwood-ndpX28miBtE-unsplash.jpg" width="300" >
+  </div>
+  <div class="box-5">
+    <h4>Womens Shoes</h4>
+    <h3>Coset K</h3>
+    <p>₹2.299</p>
+  </div>
+  <div class="box-4">
+    <img src="product.hmg/imani-bahati-LxVxPA1LOVM-unsplash.jpg" width="300" >
+  </div>
+  <div class="box-5">
+    <h4>Mens Shoes</h4>
+    <h3>Ultraboost 5.0 DNA Shoes</h3>
+    <p>₹3.499</p>
+  </div>
+  <div class="box-4">
+    <img src="product.hmg/melvin-peter-bvHLQVnh3A4-unsplash.jpg" width="300" >
+  </div>
+  <div class="box-5">
+    <h4>Womens Shoes</h4>
+    <h3>Adilette Sandals</h3>
+    <p>₹2.999</p>
+  </div>
+  <div class="box-4">
+    <img src="product.hmg/benjamin-rascoe-fdHt9HvtmA0-unsplash.jpg" width="300" >
+  </div>
+  <div class="box-5">
+    <h4>Mens Suits Combo</h4>
+    <h3> Tuxedo Suit </h3>
+    <p>₹10.999</p>
+  </div>
+  <div class="box-4">
+    <img src="product.hmg/milad-shams-KvCOWzhcGCc-unsplash.jpg" width="300" >
+  </div>
+  <div class="box-5">
+    <h4>Mens Shirt</h4>
+    <h3>Greenfibre</h3>
+    <p>1.099</p>
+  </div>
+  <div class="box-4">
+    <img src="product.hmg/phil-monte-fRNm4azug0I-unsplash.jpg" width="300" >
+  </div>
+  <div class="box-5">
+    <h4>Mens Watch</h4>
+    <h3>Timex</h3>
+    <p>1.499</p>
+  </div>
+  <!--Start-->
+
+  <!--end-->  
+  <!--Start-->
+  <!--end-->  
+  <!--Start-->
+  <!--end-->  
+  <!--Start-->
+  <!--end-->  
+  <!--Start-->
+  <!--end-->
+  <!--Start-->
+  <!--end-->
+  <!--Start-->
+  <!--end-->
+  <!--Start-->
+  <!--end-->
+<footer>
+  <div class="footer-1">
+    <p>Address</p>
+    <h3>Eva Dreams</h3>
+    <h4>946 Park Ave</h4>
+    <h5 class="footer-h5"> New York, NY 10021</h5>
+    <div class="footer-box">
+      <p>office@indigo.com <br> (445) 932 459 934</p>
+    </div>
+  </div>
+  <div class="footer-2">
+    <p>CUSTOMER SERVICE</p>
+    <ul>
+      <li><a href="">About us</a></li>
+      <li><a href="">Money Back qurantee</a></li>
+      <li><a href="">Help Centre</a></li>
+      <li><a href="">Delivery</a></li>
+      <li><a href="">Payment</a></li>
+    </ul>
+    <p>ACCOUNT</p>
+    <ul>
+      <li><a href="">Login</a></li>
+      <li><a href="">Register</a></li>
+      <li><a href="">My Account</a></li>
+      <li><a href="">Logout</a></li>
+    </ul>
+  </div>
+  <div class="footer-last">
+    <p>FOLLOW US</p>
+    <div class="search">
+      <input type="text" placeholder="Enter Your Email">
+      <div class="bi bi-search">
+      </div>
+    </div>
+  </div>
+  <div class="footer-icon">
+    <i class="fa-brands fa-facebook-f"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-whatsapp"></i>
+  </div>
+</footer>
+</body>
+</html>
+<script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
